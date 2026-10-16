@@ -1,0 +1,31 @@
+
+# Credenciales y configuraciones privadas
+.env
+.env.*
+!.env.example
+
+# Entornos virtuales de Python
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Configuraciones locales
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Backups y exportaciones de bases de datos
+*.sql
+*.sql.gz
+backups/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
